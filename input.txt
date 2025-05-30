@@ -1,0 +1,30 @@
+"email": "",
+"password": "",
+"user_query" : "Create a product with the following details: Name: Test Product, SKU: TP0123, Price: 100.0, Description: This is a test product."
+
+# ======================= PROMPTS =======================
+
+# BASE_PROMPT = f"""
+#     Please log in to https://crm.fintegrationai.com/admin/login using the following credentials:
+#     Email: {req.email}
+#     Password: {req.password}
+#     After successful login, redirect to the dashboard page https://crm.fintegrationai.com/admin/dashboard
+
+#     route :  https://crm.fintegrationai.com/admin/admin/products/create desc : For create product
+#     route :  https://crm.fintegrationai.com/admin/admin/products desc : For product listing
+#     Please make sure to fill all the required fields like product name, category, price, description, and quantity. and other if required fields.
+
+#     Product details:
+#     Name: {req.product_name}
+#     Price: {req.price}
+#     Description: {req.description}
+#     SKU: {req.SKU}
+
+#     After completing all these processes just return the message like "Product created successfully!". or any other process which completed and along with that just add last page url as well.
+#     response in json format like this:
+
+#     {{
+#         "message": "Product created successfully!",
+#         "last_page_url": "https://crm.fintegrationai.com/admin/admin/products"
+#     }}
+#     """

@@ -30,26 +30,7 @@ async def main():
     result = await agent.run()
 
     print(" Result  : ", result)
-    # last_done = None
-    # last_url = None
 
-    # for action in reversed(result.all_results):
-    #     if action.is_done:
-    #         last_done = action.extracted_content
-    #         break
-
-    # # Find last navigated URL
-    # for action in reversed(result.all_results):
-    #     if action.extracted_content and action.extracted_content.startswith("🔗  Navigated to"):
-    #         # example extracted_content: "🔗  Navigated to https://crm.fintegrationai.com/admin/admin/products"
-    #         last_url = action.extracted_content.split(" to ")[-1].strip()
-    #         break
-
-    # print(json.dumps({
-    #     "message": last_done or "No completion message found",
-    #     "last_page_url": last_url or "No URL found"
-    # }, indent=4))
-    
     last_message = None
     last_url = None
 
