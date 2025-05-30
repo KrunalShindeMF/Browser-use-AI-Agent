@@ -2,3 +2,4 @@ browser-use
 playwright
 fastapi
 uvicorn
+gunicorn
