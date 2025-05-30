@@ -3,3 +3,4 @@ playwright
 fastapi
 uvicorn
 gunicorn
+net_asyncio
