@@ -28,3 +28,19 @@
 #         "last_page_url": "https://crm.fintegrationai.com/admin/admin/products"
 #     }}
 #     """
+
+
+================================== FINAL OUTPUT =====================================
+
+{
+  "summary": {
+    "last_navigated_url": "https://crm.fintegrationai.com/admin/admin/products/create",
+    "success": true,
+    "message": "Successfully logged into the CRM dashboard and created the product ",
+    "status": "success"
+  },
+  "last_navigated_url": "https://crm.fintegrationai.com/admin/admin/products/create",
+  "success": true,
+  "message": "Successfully logged into the CRM dashboard and created the product ",
+  "status": "success"
+}
